@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+}
+
+main {
+  height: 200px;
+  width: 600px;
+  overflow: none;
+}
+header {
+  background-color: yellow;
+  max-width: 600px;
+  min-width:300px;
+}
+.links {
+  display: inline;
+  color: green: 
+  border: 1 solid black;
+  float: left;
+  width: 20%;
+  min-width: 20px;
+  text-align: center;
+  border 1px solid black;
+}
+aside {
+  background-color: cyan;
+  float: left;
+  width: 10%;
+  height: 100%;
+  min-width: 50px;
+  }
+article {
+  background-color: orange;
+  float: left;
+  width: 80%;
+  height: 100%;
+  min-width: 200px;
+}
+.clear {
+  clear: left;
+}
+footer {
+  width: 600px;
+  height: 20px;
+  background-color: green;
+ }
+@media (max-width: 420px) 
+{ nav, article, aside {float: none; width: auto; } }

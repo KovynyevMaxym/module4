@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+}
+.image {
+    display:inline;
+}
+
+.buttons_big_screen {
+    display: inline;
+    color: green;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+div {
+    max-width: 500px;
+    margin: 0 auto;
+}
+nav {
+    max-width: 500px;
+    background-color: cyan;
+    margin: 0px auto;
+  
+    
+}
+header {
+    max-width: 500px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 auto;
+}
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    color: green;
+    background-color: yellow;
+}
+
+footer {
+    max-width: 490px;
+    height: 30px;
+    background-color: green;
+    font-weight: bold;
+    margin: 0px auto;
+}
