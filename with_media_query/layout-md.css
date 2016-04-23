@@ -10,7 +10,7 @@ header {
 }
 section {
     max-width: 1200px;
-    min-width: 500px;
+    min-width: 300px;
 }
 nav {
     width: 100px;
