@@ -7,12 +7,14 @@ body {
   margin: 0;
   background: deepskyblue;
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .buttons a {
@@ -35,18 +37,23 @@ img {
 
 @media all and (max-width: 1200px) {
   .buttons {
-    justify-content: space-around;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
   }
 }
 @media all and (max-width: 800px) {
   .buttons {
-    justify-content: space-around;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
   }
 }
 @media all and (max-width: 600px) {
   .buttons {
     -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
     padding: 0;
   }
 
