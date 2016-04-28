@@ -12,7 +12,7 @@ text-transform: uppercase;
     padding: 0;
     margin: 30px;
     
-        -moz-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
@@ -21,6 +21,7 @@ text-transform: uppercase;
 .nav:hover {
     opacity: 1;
 }
+
 .nav li {
     height: 50px;
     width: 50px;
@@ -48,10 +49,12 @@ text-transform: uppercase;
     padding-left: 15px;
     cursor: pointer;
 
--moz-transition: background; 0.2s; ease-in-out;
--webkit-transition: background; 0.2s; ease-in-out;
--o-transition: background; 0.2s; ease-in-out;
-transition: background; 0.2s; ease-in-out;}
+-moz-transition: background 0.2s ease-in-out;
+-webkit-transition: background 0.2s ease-in-out;
+-o-transition: background 0.2s ease-in-out;
+transition: background 0.2s ease-in-out;
+    
+}
 
 .nav li a:first-child {
     font-size: 1.1em;
@@ -69,8 +72,8 @@ transition: background; 0.2s; ease-in-out;}
     content: '';
     position: absolute;
     display: block;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     top: 9px;
     left: 9px;
 }
@@ -79,7 +82,7 @@ transition: background; 0.2s; ease-in-out;}
     background: url(menus.png) center no-repeat;
 }
 .services li a:first-child:before {
-    background: url(servises.png) center no-repeat;
+    background: url(services.png) center no-repeat;
 }
 .energy_savings li a:first-child:before {
     background: url(energy_savings.png) center no-repeat;
