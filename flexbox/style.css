@@ -10,14 +10,14 @@ article {
 }
 
 p,h1,h2,fieldset {
- margin: 20px 30px;
+  margin: 20px 10px;
   text-align: left;
 }
-div {
-  margin: auto;
-}
 header {
-    position:; 
+    position:/*fixed*/; 
+}
+footer {
+    position:fixed; 
 }
 article {
   max-width: 800px;
