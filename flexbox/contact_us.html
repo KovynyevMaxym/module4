@@ -21,14 +21,18 @@
       <section>
           
           <article>
-            <div class="text">
+            <div id="container">
                     <h1 id="contacts">Contacts</h1>
                     <form>
+                    <!-- <label>
+                        Message:
+                          <input type="text" id="message"/>
+                      </label>-->
                       <fieldset> 
                         <legend>Send your request or proposition</legend>
-                        <textarea rows="5" cols="30" placeholder="Write here"></textarea>
+                        <textarea rows="5" cols="30" placeholder="Write here" id="message"></textarea>
                         <br>
-                        <button type="button" onclick="alert('Are you sure')">Send</button>
+                        <button type="button" id="btn-send" onclick="alert('Are you sure?')">Send</button>
                       </fieldset>
                     </form></div>
           </article>
@@ -36,8 +40,10 @@
       <footer>
         <div id="string"></div>
         <!--<img src="logo.png" ></img> -->
-          <div><p>Kyiv, str. Bohdan Khmelnytsky 16-22, Tel. / Fax: +380 44 351 21 33 <a href="mailto:usp.kdv@gmail.com">usp.kdv@gmail.com</a></p></div>
+          <div><p>Kiev, str. Bohdan Khmelnytsky 16-22, Tel. / Fax: +380 44 351 21 33 <a href="mailto:usp.kdv@gmail.com">usp.kdv@gmail.com</a></p></div>
       </footer>
+      <script   src="//code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+    <script src="contact_us.js"></script>
   </body>
 
 </html>
