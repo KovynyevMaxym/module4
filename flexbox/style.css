@@ -9,7 +9,8 @@ p,h1,h2,fieldset {
   text-align: left;
 }
 header {
-    position: fixed;
+    position:; 
+    
 }
 article {
   max-width: 800px;
