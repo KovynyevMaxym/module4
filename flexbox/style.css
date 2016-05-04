@@ -8,13 +8,15 @@ p,h1,h2,fieldset {
  margin: 20px 30px;
   text-align: left;
 }
+div {
+  text-align: center;
+}
 header {
     position:; 
 }
 article {
   max-width: 800px;
-  text-align: center;
-  }
+}
 fieldset {
   width: 30%;
 }
